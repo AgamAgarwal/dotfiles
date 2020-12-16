@@ -202,7 +202,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Lock screen
-bindsym $mod+Ctrl+l exec --no-startup-id xsecurelock
+bindsym $mod+Ctrl+l exec --no-startup-id i3lock --image ~/.lockscreen.png --tiling --ignore-empty-password
 
 # Autostart applications
 exec --no-startup-id nitrogen --restore; sleep 1; picom -b
