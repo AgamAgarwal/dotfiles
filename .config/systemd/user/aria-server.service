@@ -1,0 +1,9 @@
+[Unit]
+Description=Aria rpc server
+
+[Service]
+ExecStart=aria2c --conf-path %h/.aria2/rpc-server.conf
+Restart=always
+
+[Install]
+WantedBy=default.target
