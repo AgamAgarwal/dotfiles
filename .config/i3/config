@@ -212,6 +212,9 @@ bar {
         status_command SCRIPT_DIR=~/.i3blocks-contrib i3blocks
 }
 
+# Toggle bar mode between dock and hide (shows up when pressing modifier). Other option is invisible to always hide it.
+bindsym $mod+b bar mode toggle
+
 #############################
 ### settings for i3-gaps: ###
 #############################
